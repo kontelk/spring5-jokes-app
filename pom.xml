@@ -8,22 +8,33 @@
         <version>2.7.14</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.kt</groupId>
     <artifactId>spring5-jokes-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>spring5-jokes-app</name>
     <description>spring5-jokes-app</description>
+    <version>0.0.1-SNAPSHOT</version>
+
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>guru.springframework</groupId>
+            <artifactId>chuck-norris-for-actuator</artifactId>
+            <version>2.4.0</version>
         </dependency>
 
         <dependency>
@@ -31,6 +42,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
