@@ -1,7 +1,6 @@
 package com.kt.spring5jokesapp.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
