@@ -12,7 +12,7 @@
     <artifactId>spring5-jokes-app</artifactId>
     <name>spring5-jokes-app</name>
     <description>spring5-jokes-app</description>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
         <java.version>11</java.version>
@@ -63,7 +63,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:kontelk/spring5-jokes-app.git</developerConnection>
-        <tag>spring5-jokes-app-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
